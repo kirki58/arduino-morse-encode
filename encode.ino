@@ -120,7 +120,8 @@ void loop(){
         led_dot(led);
       }
       else{
-        delay(50);
+        digitalWrite(led,LOW);
+        delay(1000);
       }
     }
     exit(0);
